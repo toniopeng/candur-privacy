@@ -90,186 +90,205 @@
 
   <header>
     <h1>Candur</h1>
-    <p>Privacy Policy · Last updated: April 2026</p>
+    <p>Privacy Policy · Last updated: September 29, 2026</p>
   </header>
 
   <h2>1. Introduction</h2>
   <p>
-    Candur ("we", "our", or "the app") is a daily self-reflection application. 
-    We are committed to protecting your privacy. This Privacy Policy explains 
-    how we collect, use, and safeguard your information when you use Candur.
+    Candur ("we", "our", or "the app") is a daily self-reflection app for iPhone.
+    This Privacy Policy explains what information the Candur app collects, how we use it,
+    and the choices you have. Candur is distributed through the Apple App Store.
   </p>
   <p>
-    By using Candur, you agree to the terms described in this policy. 
-    If you do not agree, please discontinue use of the app.
+    <strong>In short:</strong> we do not track you, we do not show ads, and we do not sell or
+    share your data with data brokers or advertisers.
   </p>
 
   <div class="divider">◆</div>
 
   <h2>2. Information We Collect</h2>
-  <p>We collect only what is necessary to provide the service:</p>
+  <p>We collect only what is needed to provide the service. In App Store "App Privacy" terms:</p>
   <ul>
     <li>
-      <strong>Account information:</strong> When you sign in with Google, 
-      we receive your email address and basic profile information 
-      (name, profile photo) from Google.
+      <strong>Contact Info (Name, Email Address):</strong> Candur uses
+      <strong>Sign in with Apple</strong>. Apple gives us your name and email address only if
+      you choose to share them. If you choose "Hide My Email", we receive an Apple private relay
+      address instead of your real email. We use this to create and identify your account.
     </li>
     <li>
-      <strong>Reflection content:</strong> The text you enter into the app 
-      each day is processed to generate a response. This content is transmitted 
-      to an AI language model (Claude by Anthropic) for processing.
+      <strong>User Content (your reflections):</strong> The text you write each day, the mood you
+      select, and the reflection response you receive are stored in your account so you can see
+      them in your archive.
     </li>
     <li>
-      <strong>Mood data:</strong> If you use the optional mood slider, 
-      your selection is stored locally and associated with your reflection record.
-    </li>
-    <li>
-      <strong>Usage data:</strong> Basic usage information such as 
-      streak count, subscription status, and reminder settings.
+      <strong>Identifiers (User ID):</strong> A unique account ID created by our authentication
+      provider (Firebase Authentication) when you sign in with Apple. It links your reflections to
+      your account.
     </li>
   </ul>
+  <p>
+    All of the above is linked to your account and used only to provide app functionality.
+    None of it is used for tracking or advertising.
+  </p>
+  <p>
+    We do not collect your precise or coarse location, contacts, photos, health data, browsing
+    history, or advertising identifier (IDFA).
+  </p>
 
   <div class="divider">◆</div>
 
   <h2>3. How We Use Your Information</h2>
   <ul>
+    <li>To create and secure your account (Sign in with Apple)</li>
     <li>To generate your daily AI reflection response</li>
     <li>To store and display your reflection archive</li>
-    <li>To send your daily reminder notification (if enabled)</li>
-    <li>To manage your subscription and payment status</li>
-    <li>To improve app stability and fix bugs</li>
+    <li>To unlock Candur+ features you have purchased</li>
+    <li>To send your daily reminder notification, if you turn it on</li>
   </ul>
 
   <div class="divider">◆</div>
 
-  <h2>4. AI Processing</h2>
+  <h2>4. AI Processing (DeepSeek)</h2>
   <p>
-    Your reflection input is sent to Anthropic's Claude AI model to generate 
-    a response. This processing is done in real time and is subject to 
-    Anthropic's own privacy policy, available at 
-    <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.
+    To write your reflection response, the text you submit is sent from the app to our own
+    server (a Firebase Cloud Function), which forwards it to the DeepSeek large language model
+    API and returns the response to you. Only the text of your entry is sent for this purpose;
+    we do not send your name, email address, or account ID to DeepSeek. Your app never talks
+    to DeepSeek directly, and our API credentials are kept on our server, not in the app.
   </p>
   <p>
-    <strong>Your reflection content is not used to train any AI model.</strong> 
-    We do not share, sell, or license your personal reflections to any third party.
+    Use of the DeepSeek API is subject to DeepSeek's own terms and privacy policy. We do not use
+    your reflections to train AI models, and we do not sell your reflections. Please avoid
+    including information in your reflections that you would not want processed in this way.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>5. Data Storage and Retention</h2>
+  <h2>5. No Tracking, No Ads</h2>
+  <p>
+    Candur does not track you across other companies' apps or websites, does not contain
+    third-party advertising, and does not include third-party analytics or advertising SDKs.
+    We do not share data with data brokers.
+  </p>
+
+  <div class="divider">◆</div>
+
+  <h2>6. Sign in with Apple</h2>
+  <p>
+    Sign in with Apple is the only way to sign in on iPhone. Apple's handling of your Apple ID is
+    described in Apple's Privacy Policy at apple.com/legal/privacy. When you delete your Candur
+    account, we also revoke Candur's Sign in with Apple authorization where Apple allows it. You
+    can also review or stop using Sign in with Apple for Candur at any time in
+    Settings › [your name] › Sign-In &amp; Security › Sign in with Apple.
+  </p>
+
+  <div class="divider">◆</div>
+
+  <h2>7. Purchases and Subscriptions (Apple In-App Purchase)</h2>
+  <p>
+    Candur+ is offered as an in-app purchase through the Apple App Store. Payment is processed
+    entirely by Apple using your Apple ID. We never see or store your payment card or billing
+    details. Apple may share purchase status with us (for example, whether Candur+ is active) so
+    we can unlock features. Subscriptions renew automatically unless canceled at least 24 hours
+    before the end of the current period; you can manage or cancel them in Settings › [your name] ›
+    Subscriptions, or from Candur's Settings screen. Refunds are handled by Apple.
+  </p>
+
+  <div class="divider">◆</div>
+
+  <h2>8. Data Storage, Service Providers and Retention</h2>
   <ul>
     <li>
-      Your reflection records are stored securely and associated with your account.
+      Your account and reflections are stored with Google Firebase (Authentication and Cloud
+      Firestore), which acts as our service provider and processes data on our behalf. Data is
+      encrypted in transit using HTTPS.
     </li>
     <li>
-      Free users: the 7 most recent records are accessible. 
-      Older records are retained but require Candur+ to view.
+      The AI reflection is generated via our server and the DeepSeek API, as described in
+      Section 4.
     </li>
     <li>
-      Candur+ subscribers: unlimited records are stored and accessible.
+      Free accounts can view their 7 most recent reflections; older reflections are retained but
+      require Candur+ to view.
     </li>
     <li>
-      If you delete your account, all your data is permanently deleted 
-      within 30 days.
+      Your reminder time is stored only on your device and is not sent to our servers.
+    </li>
+    <li>
+      We keep your data until you delete your account.
     </li>
   </ul>
+  <p>We do not sell your personal data.</p>
 
   <div class="divider">◆</div>
 
-  <h2>6. Data Sharing</h2>
-  <p>We do not sell your personal data. We share data only with:</p>
-  <ul>
-    <li>
-      <strong>Anthropic:</strong> For AI response generation (reflection text only)
-    </li>
-    <li>
-      <strong>Google:</strong> For authentication (Google Sign-In)
-    </li>
-    <li>
-      <strong>Google Play Billing:</strong> For subscription payment processing
-    </li>
-  </ul>
+  <h2>9. Account Deletion</h2>
   <p>
-    All third-party services are bound by their own privacy policies and 
-    data protection obligations.
+    You can permanently delete your account and data at any time inside the app:
+    <strong>Settings › Delete Account</strong>. You will be asked to confirm with Sign in with
+    Apple. Deleting your account removes your reflections, mood records, subscription records and
+    profile from our systems and deletes your sign-in account. This cannot be undone. Deleting your
+    account does not cancel an Apple subscription; cancel that in your Apple ID subscription
+    settings. If you cannot access the app, email us at
+    <a href="mailto:taopeng46@gmail.com">taopeng46@gmail.com</a> and we will delete your account.
+    See also <a href="delete.html">Account &amp; Data Deletion</a>.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>7. Your Rights (GDPR)</h2>
+  <h2>10. Your Rights</h2>
   <p>
-    If you are located in the European Economic Area (EEA), you have the 
-    following rights regarding your personal data:
-  </p>
-  <ul>
-    <li><strong>Right of access:</strong> Request a copy of your data</li>
-    <li><strong>Right to rectification:</strong> Correct inaccurate data</li>
-    <li><strong>Right to erasure:</strong> Request deletion of all your data</li>
-    <li><strong>Right to portability:</strong> Receive your data in a structured format</li>
-    <li><strong>Right to object:</strong> Object to processing of your data</li>
-  </ul>
-  <p>
-    To exercise any of these rights, contact us at 
-    <a href="mailto:taopeng46@gmail.com">taopeng46@gmail.com</a>.
-    We will respond within 30 days.
+    Depending on where you live (for example the EEA, UK or California), you may have the right to
+    access, correct, delete, or receive a copy of your personal data, and to object to or restrict
+    certain processing. You can delete your data in the app at any time. To exercise any other right,
+    contact us at taopeng46@gmail.com. We will respond within 30 days.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>8. Data Security</h2>
+  <h2>11. Data Security</h2>
   <p>
-    All data is transmitted over encrypted HTTPS connections. 
-    We implement industry-standard security measures to protect your 
-    information from unauthorized access, alteration, or disclosure.
+    All data is transmitted over encrypted HTTPS connections and access to your reflections is
+    restricted to your account. No method of transmission or storage is completely secure, but we
+    work to protect your information from unauthorized access, alteration, or disclosure.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>9. Children's Privacy</h2>
+  <h2>12. Children's Privacy</h2>
   <p>
-    Candur is intended for users aged 16 and older. We do not knowingly 
-    collect personal information from children under 16. If you believe 
-    a child has provided us with personal information, please contact us 
-    and we will delete it promptly.
+    Candur is intended for users aged 16 and older. We do not knowingly collect personal information
+    from children under 16. If you believe a child has provided us with personal information, please
+    contact us and we will delete it promptly.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>10. Notification Data</h2>
+  <h2>13. Notifications</h2>
   <p>
-    If you enable daily reminders, your chosen notification time is stored 
-    locally on your device. We do not transmit notification preferences 
-    to our servers.
+    If you enable daily reminders, Candur asks for notification permission and schedules a local
+    notification on your device. Your chosen time stays on your device.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>11. Changes to This Policy</h2>
+  <h2>14. Changes to This Policy</h2>
   <p>
-    We may update this Privacy Policy from time to time. When we do, 
-    we will update the "Last updated" date at the top of this page. 
-    Continued use of the app after changes constitutes acceptance 
-    of the updated policy.
+    We may update this Privacy Policy from time to time. When we do, we will update the "Last
+    updated" date at the top of this page. If changes are material, we will notify you in the app.
   </p>
 
   <div class="divider">◆</div>
 
-  <h2>12. Contact Us</h2>
+  <h2>15. Contact Us</h2>
   <p>
-    If you have any questions, concerns, or requests regarding this 
-    Privacy Policy or your personal data, please contact us at:
+    If you have any questions, concerns, or requests regarding this Privacy Policy or your personal
+    data, please contact us at:
   </p>
-  <p>
-    <a href="mailto:taopeng46@gmail.com">taopeng46@gmail.com</a>
-  </p>
-  <p>
-    Candur is an independent developer. 
-    We are committed to handling your data responsibly and transparently.
-  </p>
+  <p><a href="mailto:taopeng46@gmail.com">taopeng46@gmail.com</a></p>
 
   <footer>
-    <p>Candur · One Day. One Reflection. One Truth.</p>
-    <p style="margin-top:8px;">© 2026 Candur. All rights reserved.</p>
+    <p>Candur · One Reflection. One Day. One Truth.</p>
   </footer>
 
 </body>
